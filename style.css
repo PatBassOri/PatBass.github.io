@@ -92,7 +92,7 @@ li:hover {
 }
 
 #Vorstellung {
-  background-image: url("");
+  background-image: url("https://github.com/PatBassOri/PatBassOri.github.io/blob/master/Bilder/Hello.jpeg?raw=true");
   min-height: 100%;
     z-index: -1
 }
@@ -104,13 +104,13 @@ li:hover {
 }
 
 #Stärken {
-  background-image: url("https://patbassori.github.io/bilder/Jar.jpeg");
+  background-image: url("https://github.com/PatBassOri/PatBassOri.github.io/blob/master/Bilder/Jar.jpeg?raw=true");
   min-height: 100%;
     z-index: -1;
 }
 
 #Schlusswort{
-  background-image: url("https://raw.githubusercontent.com/PatBassOri/PatBassOri.github.io/master/Bilder/skill1.jpeg");
+  background-image: url("https://github.com/PatBassOri/PatBassOri.github.io/blob/master/Bilder/Handshake.jpeg?raw=true");
   min-height: 100%;
   z-index: -1
 }
