@@ -1,0 +1,226 @@
+body, html {
+  background-color: #716d6d21;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.profilepicture{
+position: relative;
+float: left;
+left: 5%;
+bottom: 90%;
+border: 4px solid white;
+}
+
+h1 {
+  position: absolute;
+}
+
+p{
+  font-family: sans-serif;
+  z-index: 1;
+  position: absolute;
+}
+
+ul{
+  text-transform: uppercase;
+  position: fixed;
+  float: right;
+  list-style: none;
+  margin-top: 18%;
+}
+
+.main-nav{
+}
+
+ul li{
+list-style: none;
+  margin: 5px;
+}
+
+.main-nav li a{
+  width: 150px;
+  background-color: #5959594f;
+  border: 1px solid #00000063;
+  border-radius: 15px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: arial;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+ul li a.active{
+  border: 1px solid black;
+  border-radius: 15px;
+  background: #b57500;
+}
+
+li:hover {
+  border-radius: 15px;
+  background: #ffa50057;
+}
+
+.img{
+  height: 90vh;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#Start {
+  background-image: url("./bilder/homescreen1.png");
+  min-height: 100%;
+  z-index: -1;
+}
+
+#Vorstellung {
+  background-image: url("./bilder/hello.jpeg");
+  min-height: 100%;
+    z-index: -1
+}
+
+#Fähigkeiten {
+  background-image: url("./bilder/skill1.jpeg");
+  min-height: 100%;
+    z-index: -1
+}
+
+#Stärken {
+  background-image: url("./bilder/Jar.jpeg");
+  min-height: 100%;
+    z-index: -1;
+}
+
+#Schlusswort{
+  background-image: url("./bilder/handshake.jpeg");
+  min-height: 100%;
+  z-index: -1
+}
+
+.section{
+  bottom: 15%;
+  height: 7%;
+  text-align: center;
+  padding: 50px 80px;
+  position: relative;
+}
+
+.section .title{
+  position: absolute;
+  left: -20%;
+  top: 15px;
+  transition: all 1000ms ease;
+  width: 20%;
+  text-align: right;
+}
+
+.section.visible .title{
+  left: 0%;
+}
+
+
+.section .desc{
+  position: absolute;
+  right: -75%;
+  top: 7px;
+  transition: all 1000ms ease;
+  width: 75%;
+  text-align: left;
+}
+
+.Start1{
+  border: 3px solid white;
+  background: black linear-gradient(black,#595959);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  left: 33%;
+}
+
+.Start2{
+  border: 3px solid white;
+  background: black linear-gradient(black,#595959);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 23%;
+  right: 24%;
+  left: 20%;
+}
+
+.section.visible .desc{
+  right: 0%;
+}
+
+
+.section.visible .right-Text{
+  right: 0%;
+}
+.section-light{
+  background: #00132b;
+  color: #ddd;
+}
+
+.section-dark{
+  background: #00132b;
+  color: #ddd;
+}
+
+.text{
+  width: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text .border{
+  background: black linear-gradient(black,#595959);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+}
+
+.Tour{
+  background: black linear-gradient(black,#595959);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  border: 1px solid white
+}
+
+.border{
+  border: 1px solid white;
+}
+
+.text .border.trans{
+  background-color: transparent;
+}
