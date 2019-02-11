@@ -92,13 +92,13 @@ li:hover {
 }
 
 #Vorstellung {
-  background-image: url("https://images.pexels.com/photos/886465/pexels-photo-886465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("");
   min-height: 100%;
     z-index: -1
 }
 
 #Fähigkeiten {
-  background-image: url("https://patbassori.github.io/bilder/skill1.jpeg");
+  background-image: url("https://raw.githubusercontent.com/PatBassOri/PatBassOri.github.io/master/Bilder/skill1.jpeg");
   min-height: 100%;
     z-index: -1
 }
