@@ -92,25 +92,25 @@ li:hover {
 }
 
 #Vorstellung {
-  background-image: url("./bilder/hello.jpeg");
+  background-image: url("https://patbassori.github.io/bilder/hello.jpeg");
   min-height: 100%;
     z-index: -1
 }
 
 #Fähigkeiten {
-  background-image: url("./bilder/skill1.jpeg");
+  background-image: url("https://patbassori.github.io/bilder/skill1.jpeg");
   min-height: 100%;
     z-index: -1
 }
 
 #Stärken {
-  background-image: url("./bilder/Jar.jpeg");
+  background-image: url("https://patbassori.github.io/bilder/Jar.jpeg");
   min-height: 100%;
     z-index: -1;
 }
 
 #Schlusswort{
-  background-image: url("./bilder/handshake.jpeg");
+  background-image: url("https://patbassori.github.io/bilder/handshake.jpeg");
   min-height: 100%;
   z-index: -1
 }
